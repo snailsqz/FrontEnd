@@ -4,8 +4,7 @@ const app = express();
 const path = require("path");
 var bodyParser = require("body-parser");
 
-const base_url =
-  "http://node58259-pawee-noderest1.proen.app.ruk-com.cloud:11572";
+const base_url = "http://node58259-pawee-noderest1.proen.app.ruk-com.cloud";
 //const base_url = "http://localhost:3000";
 
 app.set("views", path.join(__dirname, "public/views"));
